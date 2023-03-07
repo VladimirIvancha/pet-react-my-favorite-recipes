@@ -6,14 +6,14 @@ function RecipeItem({ item }) {
   return (
     <div className="container">
       <div className="row">
-        <div className="col-12 text-center fs-1">{item.title}</div>
+        <div className="col-12 text-center text-light fs-1 bg-primary rounded mt-4 mb-2 py-2">{item.title}</div>
       </div>
 
       <div className="row">
         <div className={item.imgClass}>
-          <img className="w-100" src={item.img} alt={item.title} />
+          <img className="w-100 rounded mb-2" src={item.img} alt={item.title} />
         </div>
-        <div className="col-12 col-md-4 text-md-start">
+        <div className="col-12 col-md-4 text-md-start bg-info py-4 px-3 mb-2 rounded">
           <h5 className='text-center'>Состав</h5>
           <ul>
             {
@@ -26,7 +26,7 @@ function RecipeItem({ item }) {
       </div>
 
       <div className="row">
-        <div className="col-12 text-md-start">
+        <div className="col-12 text-md-start bg-secondary text-light rounded py-4">
           <h5 className='text-center'>Приготовление</h5>
           <ol>
             {

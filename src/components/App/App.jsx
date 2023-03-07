@@ -4,7 +4,7 @@ import RecipeItem from '../RecipeItem/RecipeItem'
 
 function App() {
   return (
-    <div>
+    <div className='App'>
       {
         RecipeItemsInitialData.map(item => (
           <RecipeItem key={item.id} item={item} />

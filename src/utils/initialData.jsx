@@ -1,8 +1,8 @@
 import kanifurutsu from '../assets/images/salad-kani-furutsu.PNG'
 import starymunchen from '../assets/images/salad-stary-Munchen.PNG'
 
-const imgClass1 = "col-12 col-md-8 text-center order-md-0";
-const imgClass2 = "col-12 col-md-8 text-center order-md-1";
+const imgClass1 = "col-12 col-md-8 p-0 pe-md-2 order-md-0";
+const imgClass2 = "col-12 col-md-8 p-0 ps-md-2 order-md-1";
 
 const RecipeItemsInitialData = [
   {
