@@ -7,6 +7,7 @@ const imgClass2 = "col-12 col-md-8 p-0 ps-md-2 order-md-1";
 const RecipeItemsInitialData = [
   {
     id: "item-001",
+    type: "salad",
     title: "Салат 'Кани Фуруцу'",
     img: kanifurutsu,
     imgClass: imgClass1,
@@ -72,6 +73,7 @@ const RecipeItemsInitialData = [
   },
   {
     id: "item-002",
+    type: "salad",
     title: "Салат 'Старый Мюнхен'",
     img: starymunchen,
     imgClass: imgClass2,
