@@ -22,6 +22,14 @@ function RecipeItem({ item }) {
               ))
             }
           </ul>
+          <h6 className='text-start ms-3'>{item.subtitle}</h6>
+          <ul>
+            {
+              item.ingredientsAdditional?.map(item => (
+                <RecipeItemIngredientsLI key={item.id} item={item} />
+              ))
+            }
+          </ul>
         </div>
       </div>
 
