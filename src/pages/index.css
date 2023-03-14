@@ -9,8 +9,116 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .App {
   background-color: #d1d3e5;
+}
+
+.navBarStickyTop .title {
+  font-size: calc(0.6rem + 1.5vw);
+}
+
+@media screen and (max-width: 420px) {
+  .navBarStickyTop .title {
+    font-size: calc(0.5rem + 0.9vw);
+  }
+}
+.home {
+  padding-top: 7rem;
+}
+.home .homeSideBar {
+  position: sticky;
+  top: 7rem;
+  z-index: 20;
+}
+.home .homeSideBar .section_title {
+  margin-bottom: 16px;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.1875;
+}
+.home .homeSideBar .categoryHeader_wrapper {
+  --icon-size: 60px;
+  min-height: var(--icon-size);
+  padding-left: calc(var(--icon-size) + 8px);
+  margin-right: 24px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: 0;
+  background-size: var(--icon-size) var(--icon-size);
+  border-width: 0;
+  color: hsl(var(--foodru-black));
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.home .homeSideBar .categoryHeader_wrapper_recepty {
+  background-image: url(../assets/images/recepty.webp);
+}
+.home .homeSideBar .categoryHeader_wrapper_encyclopedia {
+  background-image: url(../assets/images/encyclopedia.webp);
+}
+.home .homeSideBar .categoryHeader_wrapper_gotovim-detyam {
+  background-image: url(../assets/images/gotovim-detyam.webp);
+}
+.home .homeSideBar .categoryHeader_wrapper_muzhskaya-kuhnya {
+  background-image: url(../assets/images/muzhskaya-kuhnya.webp);
+}
+.home .homeSideBar .categoryHeader_wrapper_vse-o-ede {
+  background-image: url(../assets/images/vse-o-ede.webp);
+}
+.home .homeSideBar .categoryHeader_wrapper_zagotovki {
+  background-image: url(../assets/images/zagotovki.webp);
+}
+.home .homeSideBar .categoryHeader_wrapper_zozh {
+  background-image: url(../assets/images/zozh.webp);
+}
+.home .homeSideBar .categoryHeader_title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.2;
+  text-decoration: none;
+  flex: 1 1 auto;
+}
+.home .homeSideBar .categoryHeader_button {
+  display: inline-flex;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  border: none;
+  width: 24px;
+  height: 24px;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 50px;
+}
+.home .homeSideBar .categoryHeader_chevron {
+  display: block;
+  width: 12px;
+  height: 12px;
+  transform-origin: center;
+  color: hsl(var(--foodru-black));
+  transition: transform 0.3s;
+}
+
+@media screen and (min-width: 1280px) {
+  .home .homeSideBar .section_title {
+    margin-bottom: 20px;
+    font-size: 24px;
+    line-height: 1.2;
+  }
+  .home .homeSideBar .categoryHeader_wrapper {
+    --icon-size: 40px;
+    margin-right: 8px;
+  }
+  .home .homeSideBar .categoryHeader_title {
+    font-size: 16px;
+    line-height: 1.2;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */

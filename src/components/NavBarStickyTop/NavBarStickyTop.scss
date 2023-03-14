@@ -1,0 +1,13 @@
+.navBarStickyTop {
+  & .title {
+    font-size: calc(0.6rem + 1.5vw);
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .navBarStickyTop {
+    & .title {
+      font-size: calc(0.5rem + 0.9vw);
+    }
+  }
+}

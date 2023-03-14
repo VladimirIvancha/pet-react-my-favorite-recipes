@@ -1,6 +1,72 @@
 import kanifurutsu from '../assets/images/salad-kani-furutsu.PNG'
 import starymunchen from '../assets/images/salad-stary-Munchen.PNG'
 
+const homeSideBarInitialData = [
+  {
+    id: "001",
+    title: "Рецепты",
+    className: "categoryHeader_wrapper categoryHeader_wrapper_recepty",
+  },
+  {
+    id: "002",
+    title: "Все о еде",
+    className: "categoryHeader_wrapper categoryHeader_wrapper_vse-o-ede",
+  },
+  {
+    id: "003",
+    title: "ЗОЖ",
+    className: "categoryHeader_wrapper categoryHeader_wrapper_zozh",
+  },
+  {
+    id: "004",
+    title: "Готовим детям",
+    className: "categoryHeader_wrapper categoryHeader_wrapper_gotovim-detyam",
+  },
+  {
+    id: "005",
+    title: "Мужская кухня",
+    className: "categoryHeader_wrapper categoryHeader_wrapper_muzhskaya-kuhnya",
+  },
+  {
+    id: "006",
+    title: "Заготовки",
+    className: "categoryHeader_wrapper categoryHeader_wrapper_zagotovki",
+  },
+  {
+    id: "007",
+    title: "Энциклопедия",
+    className: "categoryHeader_wrapper categoryHeader_wrapper_encyclopedia",
+  },
+]
+
+const navBarStickyTopItemsInitialData = [
+  {
+    id: "main",
+    link: "/",
+    title: "Главная",
+  },
+  {
+    id: "about",
+    link: "/about",
+    title: "О нас",
+  },
+  {
+    id: "dashboard",
+    link: "/products",
+    title: "Продукция",
+  },
+  {
+    id: "services",
+    link: "/services",
+    title: "Услуги",
+  },
+  {
+    id: "contacts",
+    link: "/contacts",
+    title: "Контакты",
+  },
+]
+
 const imgClass1 = "col-12 col-md-8 p-0 pe-md-2 order-md-0";
 const imgClass2 = "col-12 col-md-8 p-0 ps-md-2 order-md-1";
 
@@ -160,4 +226,8 @@ const RecipeItemsInitialData = [
   },
 ]
 
-export default RecipeItemsInitialData;
+export {
+  homeSideBarInitialData,
+  RecipeItemsInitialData,
+  navBarStickyTopItemsInitialData,
+}

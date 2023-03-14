@@ -1,0 +1,114 @@
+.home {
+  padding-top: 7rem;
+
+  & .homeSideBar {
+    position: sticky;
+    top: 7rem;
+    z-index: 20;
+
+    & .section_title {
+      margin-bottom: 16px;
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 1.1875;
+    }
+
+    & .categoryHeader_wrapper {
+      --icon-size: 60px;
+      min-height: var(--icon-size);
+      padding-left: calc(var(--icon-size) + 8px);
+      margin-right: 24px;
+      background-color: transparent;
+      background-repeat: no-repeat;
+      background-position: 0;
+      background-size: var(--icon-size) var(--icon-size);
+      border-width: 0;
+      color: hsl(var(--foodru-black));
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      &_recepty {
+        background-image: url(../assets/images/recepty.webp);
+      }
+
+      &_encyclopedia {
+        background-image: url(../assets/images/encyclopedia.webp);
+      }
+
+      &_gotovim-detyam {
+        background-image: url(../assets/images/gotovim-detyam.webp);
+      }
+
+      &_muzhskaya-kuhnya {
+        background-image: url(../assets/images/muzhskaya-kuhnya.webp);
+      }
+
+      &_vse-o-ede {
+        background-image: url(../assets/images/vse-o-ede.webp);
+      }
+
+      &_zagotovki {
+        background-image: url(../assets/images/zagotovki.webp);
+      }
+
+      &_zozh {
+        background-image: url(../assets/images/zozh.webp);
+      }
+    }
+
+    & .categoryHeader_title {
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 1.2;
+      text-decoration: none;
+      flex: 1 1 auto;
+    }
+
+    & .categoryHeader_button {
+      display: inline-flex;
+      flex-shrink: 0;
+      justify-content: center;
+      align-items: center;
+      padding: 0;
+      border: none;
+      width: 24px;
+      height: 24px;
+      background: #fff;
+      box-shadow: 0 2px 4px rgb(0 0 0 / 10%);
+      border-radius: 50px;
+    }
+
+    & .categoryHeader_chevron {
+      display: block;
+      width: 12px;
+      height: 12px;
+      transform-origin: center;
+      color: hsl(var(--foodru-black));
+      transition: transform .3s;
+    }
+
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .home {
+    & .homeSideBar {
+      & .section_title {
+        margin-bottom: 20px;
+        font-size: 24px;
+        line-height: 1.2;
+      }
+
+      & .categoryHeader_wrapper {
+        --icon-size: 40px;
+        margin-right: 8px;
+      }
+
+      & .categoryHeader_title {
+        font-size: 16px;
+        line-height: 1.2;
+      }
+    }
+  }
+}

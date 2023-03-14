@@ -12,6 +12,10 @@ code {
         monospace;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 .App {
     background-color: #d1d3e5;
 }
