@@ -1,5 +1,5 @@
 import React from 'react'
-import { Route, Routes } from 'react-router-dom'
+import { Navigate, Route, Routes } from 'react-router-dom'
 import Home from '../Home/Home'
 
 function App() {
@@ -7,6 +7,7 @@ function App() {
     <div className='App'>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
     </div>
   )
