@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/pet-react-my-favorite-recipes/static/css/main.919f8410.css",
-    "main.js": "/pet-react-my-favorite-recipes/static/js/main.aaa9f0a2.js",
+    "main.js": "/pet-react-my-favorite-recipes/static/js/main.c9c501a6.js",
     "static/media/salad-kani-furutsu.PNG": "/pet-react-my-favorite-recipes/static/media/salad-kani-furutsu.e82182b92ad5936080ac.PNG",
     "static/media/salad-stary-Munchen.PNG": "/pet-react-my-favorite-recipes/static/media/salad-stary-Munchen.6681d6f9d21a5af04d48.PNG",
     "static/media/recepty.webp": "/pet-react-my-favorite-recipes/static/media/recepty.3039512ef2159fa1617b.webp",
@@ -13,10 +13,10 @@
     "static/media/vse-o-ede.webp": "/pet-react-my-favorite-recipes/static/media/vse-o-ede.dc1cd104885297fbc649.webp",
     "index.html": "/pet-react-my-favorite-recipes/index.html",
     "main.919f8410.css.map": "/pet-react-my-favorite-recipes/static/css/main.919f8410.css.map",
-    "main.aaa9f0a2.js.map": "/pet-react-my-favorite-recipes/static/js/main.aaa9f0a2.js.map"
+    "main.c9c501a6.js.map": "/pet-react-my-favorite-recipes/static/js/main.c9c501a6.js.map"
   },
   "entrypoints": [
     "static/css/main.919f8410.css",
-    "static/js/main.aaa9f0a2.js"
+    "static/js/main.c9c501a6.js"
   ]
 }
