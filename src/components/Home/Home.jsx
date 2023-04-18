@@ -10,7 +10,7 @@ function Home() {
       <NavBarStickyTop />
       <div className="container-fluid">
         <div className="row">
-          <div className="col-3">
+          <div className="col-4">
             <HomeSideBar />
           </div>
           <div className="col-8">

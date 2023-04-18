@@ -67,8 +67,8 @@ const navBarStickyTopItemsInitialData = [
   },
 ]
 
-const imgClass1 = "col-12 col-md-8 p-0 pe-md-2 order-md-0";
-const imgClass2 = "col-12 col-md-8 p-0 ps-md-2 order-md-1";
+const imgClass1 = "col-12 col-lg-7 col-xl-8 p-0 pe-lg-2 order-lg-0";
+const imgClass2 = "col-12 col-lg-7 col-xl-8 p-0 ps-lg-2 order-lg-1";
 
 const RecipeItemsInitialData = [
   {

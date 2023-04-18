@@ -13,7 +13,7 @@ function RecipeItem({ item }) {
         <div className={item.imgClass}>
           <img className="w-100 rounded mb-2" src={item.img} alt={item.title} />
         </div>
-        <div className="col-12 col-md-4 text-md-start bg-info py-4 px-3 mb-2 rounded">
+        <div className="col-12 col-lg-5 col-xl-4 text-lg-start bg-info py-4 px-3 mb-2 rounded">
           <h5 className='text-center'>Состав</h5>
           <ul>
             {
@@ -34,7 +34,7 @@ function RecipeItem({ item }) {
       </div>
 
       <div className="row">
-        <div className="col-12 text-md-start bg-secondary text-light rounded py-4">
+        <div className="col-12 text-lg-start bg-secondary text-light rounded py-4">
           <h5 className='text-center'>Приготовление</h5>
           <ol>
             {
