@@ -4,7 +4,7 @@ function HomeSideBarItem({item}) {
   return (
     <div>
       <div className={item.className}>
-        <a className="categoryHeader_title" role="presentation" href="/recipes">
+        <a className={item.titleClassName} role="presentation" href="/recipes">
           {item.title}
         </a>
         <button className="categoryHeader_button" type="button">

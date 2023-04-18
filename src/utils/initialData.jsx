@@ -3,38 +3,51 @@ import starymunchen from '../assets/images/salad-stary-Munchen.PNG'
 
 const homeSideBarInitialData = [
   {
-    id: "001",
+    id: "home_sidebar_title-001",
+    title: "Все рецепты",
+    titleClassName: "categoryHeader_title",
+    className: "categoryHeader_wrapper categoryHeader_wrapper_encyclopedia",
+  },
+  {
+    id: "home_sidebar_title-002",
     title: "Рецепты",
+    titleClassName: "categoryHeader_title",
     className: "categoryHeader_wrapper categoryHeader_wrapper_recepty",
   },
   {
-    id: "002",
+    id: "home_sidebar_title-003",
     title: "Все о еде",
+    titleClassName: "categoryHeader_title",
     className: "categoryHeader_wrapper categoryHeader_wrapper_vse-o-ede",
   },
   {
-    id: "003",
+    id: "home_sidebar_title-004",
     title: "ЗОЖ",
+    titleClassName: "categoryHeader_title",
     className: "categoryHeader_wrapper categoryHeader_wrapper_zozh",
   },
   {
-    id: "004",
+    id: "home_sidebar_title-005",
     title: "Готовим детям",
+    titleClassName: "categoryHeader_title",
     className: "categoryHeader_wrapper categoryHeader_wrapper_gotovim-detyam",
   },
   {
-    id: "005",
+    id: "home_sidebar_title-006",
     title: "Мужская кухня",
+    titleClassName: "categoryHeader_title",
     className: "categoryHeader_wrapper categoryHeader_wrapper_muzhskaya-kuhnya",
   },
   {
-    id: "006",
+    id: "home_sidebar_title-007",
     title: "Заготовки",
+    titleClassName: "categoryHeader_title",
     className: "categoryHeader_wrapper categoryHeader_wrapper_zagotovki",
   },
   {
-    id: "007",
+    id: "home_sidebar_title-008",
     title: "Энциклопедия",
+    titleClassName: "categoryHeader_title categoryHeader_title_t-wrap",
     className: "categoryHeader_wrapper categoryHeader_wrapper_encyclopedia",
   },
 ]
