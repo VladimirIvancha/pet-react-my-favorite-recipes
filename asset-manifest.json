@@ -1,24 +1,27 @@
 {
   "files": {
-    "main.css": "/pet-react-my-favorite-recipes/static/css/main.72416037.css",
-    "main.js": "/pet-react-my-favorite-recipes/static/js/main.5cc410c4.js",
-    "static/media/salad-kani-furutsu.PNG": "/pet-react-my-favorite-recipes/static/media/salad-kani-furutsu.e82182b92ad5936080ac.PNG",
-    "static/media/salad-iz-foreli-s-imbirno-medovoi-zapravkoi.PNG": "/pet-react-my-favorite-recipes/static/media/salad-iz-foreli-s-imbirno-medovoi-zapravkoi.697c29d60ed62fe938c2.PNG",
-    "static/media/klinkovy-syr.PNG": "/pet-react-my-favorite-recipes/static/media/klinkovy-syr.561f161b5eb28837bb85.PNG",
-    "static/media/salad-stary-Munchen.PNG": "/pet-react-my-favorite-recipes/static/media/salad-stary-Munchen.6681d6f9d21a5af04d48.PNG",
+    "main.css": "/pet-react-my-favorite-recipes/static/css/main.a6ec0919.css",
+    "main.js": "/pet-react-my-favorite-recipes/static/js/main.cd3225e8.js",
+    "static/media/salad-stary-Munchen.webp": "/pet-react-my-favorite-recipes/static/media/salad-stary-Munchen.56fd07d82789a61e6c04.webp",
+    "static/media/salad-kani-furutsu.webp": "/pet-react-my-favorite-recipes/static/media/salad-kani-furutsu.6db708d7d14990860ff8.webp",
+    "static/media/salad-iz-yazyka.webp": "/pet-react-my-favorite-recipes/static/media/salad-iz-yazyka.10ed69194825e06a5277.webp",
+    "static/media/klinkovy-syr.webp": "/pet-react-my-favorite-recipes/static/media/klinkovy-syr.0ca0c9ad212c43d34098.webp",
+    "static/media/salad-iz-foreli-s-imbirno-medovoi-zapravkoi.webp": "/pet-react-my-favorite-recipes/static/media/salad-iz-foreli-s-imbirno-medovoi-zapravkoi.cb572dd5bdbcf3d1066a.webp",
+    "static/media/sprite-cola-fanta_result.webp": "/pet-react-my-favorite-recipes/static/media/sprite-cola-fanta_result.b36faa3ba6259576d23d.webp",
     "static/media/recepty.webp": "/pet-react-my-favorite-recipes/static/media/recepty.3039512ef2159fa1617b.webp",
     "static/media/encyclopedia.webp": "/pet-react-my-favorite-recipes/static/media/encyclopedia.1060482a4dab80b3c0c4.webp",
     "static/media/zagotovki.webp": "/pet-react-my-favorite-recipes/static/media/zagotovki.4b55094cef17f1070d96.webp",
     "static/media/muzhskaya-kuhnya.webp": "/pet-react-my-favorite-recipes/static/media/muzhskaya-kuhnya.aac3721e36b637b7520b.webp",
+    "static/media/shop.webp": "/pet-react-my-favorite-recipes/static/media/shop.c1da6ae4e3f8dfe0edd5.webp",
     "static/media/zozh.webp": "/pet-react-my-favorite-recipes/static/media/zozh.945ccd1158a013c0e2cb.webp",
     "static/media/gotovim-detyam.webp": "/pet-react-my-favorite-recipes/static/media/gotovim-detyam.582b97605b58ea72b509.webp",
     "static/media/vse-o-ede.webp": "/pet-react-my-favorite-recipes/static/media/vse-o-ede.dc1cd104885297fbc649.webp",
     "index.html": "/pet-react-my-favorite-recipes/index.html",
-    "main.72416037.css.map": "/pet-react-my-favorite-recipes/static/css/main.72416037.css.map",
-    "main.5cc410c4.js.map": "/pet-react-my-favorite-recipes/static/js/main.5cc410c4.js.map"
+    "main.a6ec0919.css.map": "/pet-react-my-favorite-recipes/static/css/main.a6ec0919.css.map",
+    "main.cd3225e8.js.map": "/pet-react-my-favorite-recipes/static/js/main.cd3225e8.js.map"
   },
   "entrypoints": [
-    "static/css/main.72416037.css",
-    "static/js/main.5cc410c4.js"
+    "static/css/main.a6ec0919.css",
+    "static/js/main.cd3225e8.js"
   ]
 }
