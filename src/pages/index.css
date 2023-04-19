@@ -75,6 +75,12 @@ code {
 .home .homeSideBar .categoryHeader_wrapper_zozh {
   background-image: url(../assets/images/zozh.webp);
 }
+.home .homeSideBar .categoryHeader_wrapper_shop {
+  background-image: url(../assets/images/shop.webp);
+}
+.home .homeSideBar .categoryHeader_wrapper_beverages {
+  background-image: url(../assets/images/sprite-cola-fanta_result.webp);
+}
 .home .homeSideBar .categoryHeader_title {
   font-weight: 700;
   font-size: 18px;

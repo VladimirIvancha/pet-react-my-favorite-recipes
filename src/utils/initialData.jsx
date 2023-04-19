@@ -1,38 +1,57 @@
-import kanifurutsu from '../assets/images/salad-kani-furutsu.PNG'
-import starymunchen from '../assets/images/salad-stary-Munchen.PNG'
-import klinkovysyr from '../assets/images/klinkovy-syr.PNG'
-import saladizforeli01 from '../assets/images/salad-iz-foreli-s-imbirno-medovoi-zapravkoi.PNG'
+import kanifurutsu from '../assets/images/salad-kani-furutsu.webp'
+import starymunchen from '../assets/images/salad-stary-Munchen.webp'
+import klinkovysyr from '../assets/images/klinkovy-syr.webp'
+import saladizforeli01 from '../assets/images/salad-iz-foreli-s-imbirno-medovoi-zapravkoi.webp'
+import saladizyazyka01 from '../assets/images/salad-iz-yazyka.webp'
 
 const homeSideBarInitialData = [
   {
     id: "home_sidebar_title-001",
     title: "Все рецепты",
     titleClassName: "categoryHeader_title",
-    className: "categoryHeader_wrapper categoryHeader_wrapper_encyclopedia",
+    className: "categoryHeader_wrapper categoryHeader_wrapper_shop",
   },
   {
     id: "home_sidebar_title-002",
-    title: "Рецепты",
-    titleClassName: "categoryHeader_title",
-    className: "categoryHeader_wrapper categoryHeader_wrapper_recepty",
-  },
-  {
-    id: "home_sidebar_title-003",
-    title: "Все о еде",
+    title: "Закуски",
     titleClassName: "categoryHeader_title",
     className: "categoryHeader_wrapper categoryHeader_wrapper_vse-o-ede",
   },
   {
-    id: "home_sidebar_title-004",
-    title: "ЗОЖ",
+    id: "home_sidebar_title-003",
+    title: "Салаты",
     titleClassName: "categoryHeader_title",
-    className: "categoryHeader_wrapper categoryHeader_wrapper_zozh",
+    className: "categoryHeader_wrapper categoryHeader_wrapper_encyclopedia",
+  },
+  {
+    id: "home_sidebar_title-004",
+    title: "Основные блюда",
+    titleClassName: "categoryHeader_title",
+    className: "categoryHeader_wrapper categoryHeader_wrapper_muzhskaya-kuhnya",
+  },
+  {
+    id: "home_sidebar_title-004",
+    title: "Первые блюда",
+    titleClassName: "categoryHeader_title",
+    className: "categoryHeader_wrapper categoryHeader_wrapper_recepty",
   },
   {
     id: "home_sidebar_title-005",
-    title: "Готовим детям",
+    title: "Десерты",
     titleClassName: "categoryHeader_title",
     className: "categoryHeader_wrapper categoryHeader_wrapper_gotovim-detyam",
+  },
+  {
+    id: "home_sidebar_title-004",
+    title: "Напитки",
+    titleClassName: "categoryHeader_title",
+    className: "categoryHeader_wrapper categoryHeader_wrapper_zagotovki",
+  },
+  {
+    id: "home_sidebar_title-004",
+    title: "На пару",
+    titleClassName: "categoryHeader_title",
+    className: "categoryHeader_wrapper categoryHeader_wrapper_zozh",
   },
   {
     id: "home_sidebar_title-006",
@@ -42,7 +61,7 @@ const homeSideBarInitialData = [
   },
   {
     id: "home_sidebar_title-007",
-    title: "Заготовки",
+    title: "Закатки и соленья",
     titleClassName: "categoryHeader_title",
     className: "categoryHeader_wrapper categoryHeader_wrapper_zagotovki",
   },
@@ -354,6 +373,73 @@ const RecipeItemsInitialData = [
       {
         id: "proc-006",
         text: "Смешайте зеленый салат-микс, пророщенную фасоль, филе грейпфрута и авокадо, разложите по тарелкам. Готовую форель очень острым ножом нарежьте ломтиками, выложите поверх салата, полейте заправкой и подавайте",
+      }
+    ],
+  },
+  {
+    id: "item-005",
+    type: "salad",
+    title: "Салат из Языка с Орехами и Зеленой Фасолью",
+    img: saladizyazyka01,
+    imgClass: imgClass1,
+    ingredients: [
+      {
+        id: "ing-001",
+        text: "1 телячий язык весом 1-1,2 кг",
+      },
+      {
+        id: "ing-002",
+        text: "200 г зеленой стручковой фасоли",
+      },
+      {
+        id: "ing-003",
+        text: "2 зубчика чеснока",
+      },
+      {
+        id: "ing-004",
+        text: "50 г очищенных кедровых орехов",
+      },
+      {
+        id: "ing-005",
+        text: "4-5 веточек кинзы",
+      },
+      {
+        id: "ing-006",
+        text: "3-4 ст. л. домашнего майонеза",
+      },
+      {
+        id: "ing-007",
+        text: "морская соль, свежемолотый черный перец",
+      },
+    ],
+    subtitle: "",
+    ingredientsAdditional: [
+
+    ],
+    process: [
+      {
+        id: "proc-001",
+        text: "Начинайте готовить за 3 ч до подачи.",
+      },
+      {
+        id: "proc-002",
+        text: "Тщательно вымойте язык щеткой, срежьте лишнюю соединительную ткань, поместите язык в пароварку. Готовьте до мягкости 1,5-2 ч, затем обдайте язык ледяной водой и очистите от кожи, сняв ее чулком. Остудите язык.",
+      },
+      {
+        id: "proc-003",
+        text: "У фасоли удалите кончики. Если стручки слишком длинные, нарежьте их небольшими кусочками Поместите фасоль на верхний уровень пароварки за 15 мин до готовности языка.",
+      },
+      {
+        id: "proc-004",
+        text: "Остывший язык нарежьте соломкой. Чеснок мелко порубите Отделите листочки кинзы от стеблей.",
+      },
+      {
+        id: "proc-005",
+        text: "Соедините ломтики языка, фасоль чеснок и кинзу, приправьте солью и перцем по вкусу, заправьте майонезом.",
+      },
+      {
+        id: "proc-006",
+        text: "Готовый салат посыпьте кедровыми орехами и украсьте листиками кинзы.",
       }
     ],
   },
