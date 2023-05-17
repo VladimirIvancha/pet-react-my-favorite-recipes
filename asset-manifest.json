@@ -1,11 +1,13 @@
 {
   "files": {
-    "main.css": "/pet-react-my-favorite-recipes/static/css/main.a6ec0919.css",
-    "main.js": "/pet-react-my-favorite-recipes/static/js/main.cd3225e8.js",
+    "main.css": "/pet-react-my-favorite-recipes/static/css/main.8c30a1ca.css",
+    "main.js": "/pet-react-my-favorite-recipes/static/js/main.2ea558b8.js",
+    "static/media/pastry-kesk-mamin.webp": "/pet-react-my-favorite-recipes/static/media/pastry-kesk-mamin.9b609ed6b293de04d48d.webp",
     "static/media/salad-stary-Munchen.webp": "/pet-react-my-favorite-recipes/static/media/salad-stary-Munchen.56fd07d82789a61e6c04.webp",
     "static/media/salad-kani-furutsu.webp": "/pet-react-my-favorite-recipes/static/media/salad-kani-furutsu.6db708d7d14990860ff8.webp",
     "static/media/salad-iz-yazyka.webp": "/pet-react-my-favorite-recipes/static/media/salad-iz-yazyka.10ed69194825e06a5277.webp",
-    "static/media/klinkovy-syr.webp": "/pet-react-my-favorite-recipes/static/media/klinkovy-syr.0ca0c9ad212c43d34098.webp",
+    "static/media/appetizer-klinkovy-syr.webp": "/pet-react-my-favorite-recipes/static/media/appetizer-klinkovy-syr.0ca0c9ad212c43d34098.webp",
+    "static/media/main-kolbaski-iz-kuritsy-v-bekone.webp": "/pet-react-my-favorite-recipes/static/media/main-kolbaski-iz-kuritsy-v-bekone.f959c9d06dfbc39b1ba5.webp",
     "static/media/salad-iz-foreli-s-imbirno-medovoi-zapravkoi.webp": "/pet-react-my-favorite-recipes/static/media/salad-iz-foreli-s-imbirno-medovoi-zapravkoi.cb572dd5bdbcf3d1066a.webp",
     "static/media/sprite-cola-fanta_result.webp": "/pet-react-my-favorite-recipes/static/media/sprite-cola-fanta_result.b36faa3ba6259576d23d.webp",
     "static/media/recepty.webp": "/pet-react-my-favorite-recipes/static/media/recepty.3039512ef2159fa1617b.webp",
@@ -17,11 +19,11 @@
     "static/media/gotovim-detyam.webp": "/pet-react-my-favorite-recipes/static/media/gotovim-detyam.582b97605b58ea72b509.webp",
     "static/media/vse-o-ede.webp": "/pet-react-my-favorite-recipes/static/media/vse-o-ede.dc1cd104885297fbc649.webp",
     "index.html": "/pet-react-my-favorite-recipes/index.html",
-    "main.a6ec0919.css.map": "/pet-react-my-favorite-recipes/static/css/main.a6ec0919.css.map",
-    "main.cd3225e8.js.map": "/pet-react-my-favorite-recipes/static/js/main.cd3225e8.js.map"
+    "main.8c30a1ca.css.map": "/pet-react-my-favorite-recipes/static/css/main.8c30a1ca.css.map",
+    "main.2ea558b8.js.map": "/pet-react-my-favorite-recipes/static/js/main.2ea558b8.js.map"
   },
   "entrypoints": [
-    "static/css/main.a6ec0919.css",
-    "static/js/main.cd3225e8.js"
+    "static/css/main.8c30a1ca.css",
+    "static/js/main.2ea558b8.js"
   ]
 }
