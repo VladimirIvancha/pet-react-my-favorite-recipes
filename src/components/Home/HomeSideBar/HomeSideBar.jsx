@@ -1,8 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { homeSideBarInitialData } from '../../../utils/initialData'
 import HomeSideBarItem from './HomeSideBarItem/HomeSideBarItem'
 
 function HomeSideBar() {
+  const [recipeType, setRecipeType] = useState('');
+
   return (
     <section className='homeSideBar'>
       <nav className='mainNavigationWrapper asideMainNavigation'>
@@ -10,7 +12,7 @@ function HomeSideBar() {
           <div className="section_title">Почитать</div>
           {
             homeSideBarInitialData.map(item => (
-              <HomeSideBarItem key={item.id} item={item} />
+              <HomeSideBarItem key={item.id} item={item} setRecipeType={setRecipeType} />
             ))
           }
         </div>
