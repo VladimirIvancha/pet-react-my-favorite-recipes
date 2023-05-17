@@ -87,6 +87,9 @@ code {
   line-height: 1.2;
   text-decoration: none;
   flex: 1 1 auto;
+  background-color: transparent;
+  border: none;
+  text-align: start;
 }
 .home .homeSideBar .categoryHeader_title_t-wrap {
   word-break: break-all;
