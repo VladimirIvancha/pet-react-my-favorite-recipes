@@ -4,6 +4,7 @@ function HomeSideBarItem({ item, setRecipeType }) {
 
   function sidebarItemClick() {
     setRecipeType(item.type);
+    window.scrollTo(0, 0);
   }
 
   return (
