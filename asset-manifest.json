@@ -1,14 +1,18 @@
 {
   "files": {
     "main.css": "/pet-react-my-favorite-recipes/static/css/main.8c30a1ca.css",
-    "main.js": "/pet-react-my-favorite-recipes/static/js/main.2ea558b8.js",
+    "main.js": "/pet-react-my-favorite-recipes/static/js/main.062e5995.js",
     "static/media/pastry-kesk-mamin.webp": "/pet-react-my-favorite-recipes/static/media/pastry-kesk-mamin.9b609ed6b293de04d48d.webp",
     "static/media/salad-stary-Munchen.webp": "/pet-react-my-favorite-recipes/static/media/salad-stary-Munchen.56fd07d82789a61e6c04.webp",
     "static/media/salad-kani-furutsu.webp": "/pet-react-my-favorite-recipes/static/media/salad-kani-furutsu.6db708d7d14990860ff8.webp",
+    "static/media/manty-s-baraninoy-i-tykvoy_result.webp": "/pet-react-my-favorite-recipes/static/media/manty-s-baraninoy-i-tykvoy_result.585d15a8eb1797273854.webp",
+    "static/media/azu-po-tatarski_result.webp": "/pet-react-my-favorite-recipes/static/media/azu-po-tatarski_result.6d24e7d4913f3305b558.webp",
     "static/media/salad-iz-yazyka.webp": "/pet-react-my-favorite-recipes/static/media/salad-iz-yazyka.10ed69194825e06a5277.webp",
     "static/media/appetizer-klinkovy-syr.webp": "/pet-react-my-favorite-recipes/static/media/appetizer-klinkovy-syr.0ca0c9ad212c43d34098.webp",
+    "static/media/befstroganov-iz-telyatiny_result.webp": "/pet-react-my-favorite-recipes/static/media/befstroganov-iz-telyatiny_result.035795e89dfdcce34094.webp",
     "static/media/main-kolbaski-iz-kuritsy-v-bekone.webp": "/pet-react-my-favorite-recipes/static/media/main-kolbaski-iz-kuritsy-v-bekone.f959c9d06dfbc39b1ba5.webp",
     "static/media/salad-iz-foreli-s-imbirno-medovoi-zapravkoi.webp": "/pet-react-my-favorite-recipes/static/media/salad-iz-foreli-s-imbirno-medovoi-zapravkoi.cb572dd5bdbcf3d1066a.webp",
+    "static/media/vareniki-s-vishney_result.webp": "/pet-react-my-favorite-recipes/static/media/vareniki-s-vishney_result.4af43e2a8979b11b13e9.webp",
     "static/media/sprite-cola-fanta_result.webp": "/pet-react-my-favorite-recipes/static/media/sprite-cola-fanta_result.b36faa3ba6259576d23d.webp",
     "static/media/recepty.webp": "/pet-react-my-favorite-recipes/static/media/recepty.3039512ef2159fa1617b.webp",
     "static/media/encyclopedia.webp": "/pet-react-my-favorite-recipes/static/media/encyclopedia.1060482a4dab80b3c0c4.webp",
@@ -20,10 +24,10 @@
     "static/media/vse-o-ede.webp": "/pet-react-my-favorite-recipes/static/media/vse-o-ede.dc1cd104885297fbc649.webp",
     "index.html": "/pet-react-my-favorite-recipes/index.html",
     "main.8c30a1ca.css.map": "/pet-react-my-favorite-recipes/static/css/main.8c30a1ca.css.map",
-    "main.2ea558b8.js.map": "/pet-react-my-favorite-recipes/static/js/main.2ea558b8.js.map"
+    "main.062e5995.js.map": "/pet-react-my-favorite-recipes/static/js/main.062e5995.js.map"
   },
   "entrypoints": [
     "static/css/main.8c30a1ca.css",
-    "static/js/main.2ea558b8.js"
+    "static/js/main.062e5995.js"
   ]
 }
