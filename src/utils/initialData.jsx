@@ -9,6 +9,7 @@ import befstroganoviztelyatiny from '../assets/images/befstroganov-iz-telyatiny_
 import azupotatarskiresult from '../assets/images/azu-po-tatarski_result.webp'
 import mantysbaraninoyitykvoy from '../assets/images/manty-s-baraninoy-i-tykvoy_result.webp'
 import varenikisvishney from '../assets/images/vareniki-s-vishney_result.webp'
+import shurpaizbaraniny from '../assets/images/shurpa-iz-baraniny_result.webp'
 
 const homeSideBarInitialData = [
   {
@@ -886,6 +887,74 @@ const RecipeItemsInitialData = [
       {
         id: "proc-006",
         text: "Вишневый сек перемешайте со сметаной и полейте им готовые вареники.",
+      },
+    ],
+  },
+  {
+    id: "item-012",
+    type: "first",
+    title: "Шурпа из Баранины",
+    img: shurpaizbaraniny,
+    imgClass: imgClass1,
+    steam: false,
+    ingredients: [
+      {
+        id: "ing-001",
+        text: "1кг баранины (лучше котлета на кости из бараньей корейки",
+      },
+      {
+        id: "ing-002",
+        text: "6-7 шт. среднего картофеля",
+      },
+      {
+        id: "ing-003",
+        text: "2 шт. репчатого лука",
+      },
+      {
+        id: "ing-004",
+        text: "2 шт. моркови",
+      },
+      {
+        id: "ing-005",
+        text: "1 шт. сладкий перец",
+      },
+      {
+        id: "ing-006",
+        text: "3-4 шт. свжих помидора",
+      },
+      {
+        id: "ing-007",
+        text: "лавровый лист, соль, перец черный горошком, зелень",
+      },
+    ],
+    subtitle: "",
+    ingredientsAdditional: [
+      
+    ],
+    process: [
+      {
+        id: "proc-001",
+        text: "Баранину промыть. Порезать на небольшие куски. Обжарить куски на растительном масле.",
+      },
+      {
+        id: "proc-002",
+        text: "Залить водой так, чтобы вода полностью покрывала мясо, уменьшить огонь и варить практически до готовности. В процессе варки добавить лавровый лист и перец горошком.",
+      },
+      {
+        id: "proc-003",
+        text: "Репчатый лук почистить и порезать полукольцами. Добавить к баранине. Морковь порезать кусочками и добавить к баранине и луку.",
+      },
+      {
+        id: "proc-004",
+        text: "Картофель почистить и порезать крупными кусками. Добавить в шурпу. Из сладкого перца вынуть сердцевину и порезать кусочками, добавить в кастрюлю с шурпой.",
+      },
+      {
+        id: "proc-005",
+        text: "Зелень измельчить. Помидоры обдать кипятком, снять с них кожу и порезать дольками.",
+      },
+      {
+        id: "proc-006",
+        text: "Добавить помидоры и зелень в кастрюлю с шурпой. Посолить и варить на маленьком огне до готовности мяса и овощей. Затем накрыть шурпу крышкой, выключить огонь и дать ей настояться.",
       },
     ],
   },
